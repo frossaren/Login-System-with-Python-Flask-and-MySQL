@@ -48,7 +48,7 @@ def login():
 
 
 
-# http://localhost:5000/pythinlogin/register 
+# http://localhost:5000/pythonlogin/register 
 # This will be the registration page, we need to use both GET and POST requests
 @app.route('/pythonlogin/register', methods=['GET', 'POST'])
 def register():
